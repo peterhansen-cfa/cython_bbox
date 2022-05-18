@@ -35,9 +35,9 @@ ext_modules = [
 
 setup(
     name='cython_bbox',
-    install_requires=['numpy>=1.20.0'],
+    install_requires=['numpy==1.21.0'],
     ext_modules=cythonize(ext_modules),
-    version = '0.1.3',
+    version = '0.1.4',
     description = 'Standalone cython_bbox',
     long_description=long_description,
     long_description_content_type="text/markdown",
